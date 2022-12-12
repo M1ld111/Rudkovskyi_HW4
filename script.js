@@ -1,3 +1,3 @@
-const hour = prompt('hours');
-let seconds = +hour * 3600;
+const hour = +prompt('hours');
+const seconds = hour * 3600;
 alert(seconds);
